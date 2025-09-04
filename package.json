@@ -1,0 +1,35 @@
+{
+  "name": "inhtam",
+  "version": "2.0.3",
+  "description": "I'm Not Hacker Terminal App Manager",
+  "main": "bin/inh.js",
+  "bin": {
+    "inh": "bin/inh.js"
+  },
+  "scripts": {
+    "start": "node bin/inh.js"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "manager",
+    "package",
+    "app",
+    "javascript",
+    "nodejs",
+    "install",
+    "modules",
+    "inh"
+  ],
+  "author": "aardaakpinar",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inhtam/inh"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^14.0.0",
+    "unzipper": "^0.12.3"
+  }
+}
