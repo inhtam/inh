@@ -9,12 +9,11 @@ Amaç: terminal tabanlı JavaScript uygulamalarını kolayca **yüklemek, günce
 
 ## 🚀 Özellikler
 
+* ▶️ **run** → Kurulu uygulamayı çalıştır
 * 🛠 **install** → Registry’den uygulama indir ve yükle
 * ❌ **uninstall** → Kurulu uygulamayı kaldır
 * 🔄 **update** → INH veya uygulamaları güncelle
-* 📊 **status** → Sunucu ve paket bilgilerini gör
-* 🧪 **dev/test** → Kendi yazdığın paketi test et
-* ▶️ **run** → Kurulu uygulamayı çalıştır
+* 🧪 **dev** → Kendi yazdığın paketi test et
 
 ---
 
@@ -50,16 +49,16 @@ inh install <paket-adı>
 inh uninstall <paket-adı>
 ```
 
+### INH'yi veya Paketi güncelle
+
+```bash
+inh update [paket-adı]
+```
+
 ### Kurulu paketleri listelemek
 
 ```bash
 inh list
-```
-
-### Sunucu durumunu kontrol etmek
-
-```bash
-inh status
 ```
 
 ### Kendi paketini test etmek (yakında)
