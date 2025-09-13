@@ -10,7 +10,7 @@ const list = require("../lib/list");
 
 program
   .name("inh")
-  .version("2.0.4")
+  .version("2.0.5")
   .usage("[command] or [appName]")
   .description(`🧠 INH Terminal (I'm Not Hacker)
 A modular CLI platform to run JavaScript-based terminal apps.

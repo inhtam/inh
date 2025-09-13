@@ -1,6 +1,6 @@
 {
   "name": "inhtam",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "I'm Not Hacker Terminal App Manager",
   "main": "bin/inh.js",
   "bin": {
